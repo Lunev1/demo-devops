@@ -6,7 +6,8 @@ build a docker image, push it to a desired repository, pull it again from remote
 repository and run it locally on your machine    
 
 # reference
-https://docs.docker.com/engine/reference/commandline/docker/
+Docker: https://docs.docker.com/engine/reference/commandline/docker/
+Dockerfile: https://docs.docker.com/engine/reference/builder/
 
 # to-do
 - explore the app
