@@ -24,7 +24,7 @@ e.g.: `docker login -u <username> -p <password> https://registry.hub.docker.com/
 `docker build -t <name>:<tag> <path>`
 e.g.: `docker build -t demo:latest .`
 
-`docker tag <image>:<tag> <docker_organisation>/<repository>`
-e.g.: `docker tag demo:latest lunev177/demo`
+`docker tag <image>:<tag> <docker_organisation>/<repository>:<tag>`
+e.g.: `docker tag demo:latest lunev177/demo:latest`
 
 `docker push <docker_organisation>/<repository>`
