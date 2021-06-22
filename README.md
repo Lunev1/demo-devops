@@ -16,3 +16,15 @@ Dockerfile: https://docs.docker.com/engine/reference/builder/
 - run the app
 - push to remote repository
 - pull from remote repository
+
+# cheat-sheet
+`docker login -u <username> -p <password> <docker-registry_url>`
+e.g.: `docker login -u <username> -p <password> https://registry.hub.docker.com/repository/docker/lunev177/docker-registry`
+
+`docker build -t <name>:<tag> <path>`
+e.g.: `docker build -t demo:latest .`
+
+`docker tag <image>:<tag> <docker_organisation>/<repository>`
+e.g.: `docker tag demo:latest lunev177/demo`
+
+`docker push <docker_organisation>/<repository>`
