@@ -1,11 +1,11 @@
-# use image python:3.8-slim-buster 
+FROM python:3.8-slim-buster
 
-# set a label for version 1.0
+LABEL version="1.0"
 
-# set a label with a description
+LABEL description="some detail"
 
-# copy the python app into the container (location /usr/src/app)
+COPY app.py /usr/src/app/
 
-# expose port 15000
+EXPOSE 15000
 
-# run the application with python3 command
+CMD python3 /usr/src/app/app.py
